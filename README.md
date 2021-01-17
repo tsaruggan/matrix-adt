@@ -42,7 +42,7 @@ An abstract data type for matrices created by Saruggan Thiruchelvan
 
 # Class Documentation
 
-### 2.1 matrix_adt.Matrix Class Reference
+### 1.1 matrix_adt.Matrix Class Reference
 
 This class represents a matrix.
 
@@ -76,10 +76,6 @@ This class represents a matrix.
     Perform matrix multiplication with another Matrix object.
 - def is_square (self)
     Check if matrix is square.
-
-
-**4 Class Documentation**
-
 - def is_invertable (self)
     Check if matrix is invertible.
 - def is_symmetric (self)
@@ -118,19 +114,17 @@ This class represents a matrix.
 - def Random (rows, cols, min, max)
     Static method to generate an matrix with random values (ex.
 
-#### 2.1.1 Detailed Description
-
-This class represents a matrix.
+#### 1.1.1 Detailed Description
 
 This class represents a matrix object with a 2D array containing the float values stored in the matrix and two integer
 values representing the number of rows and the number of columns
 
-#### 2.1.2 Constructor & Destructor Documentation
+#### 1.1.2 Constructor & Destructor Documentation
 
 
-**2.1 matrix_adt.Matrix Class Reference 5**
+#### 1.1 matrix_adt.Matrix Class Reference 
 
-##### 2.1.2.1 __init__()
+##### 1.1.2.1 __init__()
 
 def matrix_adt.Matrix.__init__ (
 self,
